@@ -1,0 +1,8 @@
+<suite name="Ecommerce Demo" verbose="2" parallel = "classes" thread-count="2">
+	<test name="Ecommerce login">
+	<classes>
+		<class name="testRunners.LoginPageRunner">		
+		</class>	
+	</classes>	
+	</test>
+</suite>
