@@ -16,4 +16,13 @@
   2025-02-15 11:31:06 INFO  TestBase:49 - driver will launch in Edge Browser
   2025-02-15 11:31:09 INFO  TestBase:64 - Browser Launched with a title: Swag Labs
   2025-02-15 11:31:10 INFO  LoginPagesteps:91 - User not elegible to login
+  2025-02-15 16:45:19 INFO  TestBase:49 - driver will launch in Chrome Browser
+  2025-02-15 16:45:30 INFO  TestBase:64 - Browser Launched with a title: Swag Labs
+  2025-02-15 16:45:31 INFO  LoginPagesteps:64 - User Logged in Succesfully
+  2025-02-15 16:45:31 INFO  TestBase:49 - driver will launch in Chrome Browser
+  2025-02-15 16:45:34 INFO  TestBase:64 - Browser Launched with a title: Swag Labs
+  2025-02-15 16:45:34 INFO  LoginPagesteps:80 - User not elegible to login
+  2025-02-15 16:45:35 INFO  TestBase:49 - driver will launch in Chrome Browser
+  2025-02-15 16:45:39 INFO  TestBase:64 - Browser Launched with a title: Swag Labs
+  2025-02-15 16:45:39 INFO  LoginPagesteps:80 - User not elegible to login
   

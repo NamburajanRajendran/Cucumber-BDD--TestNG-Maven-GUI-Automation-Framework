@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Ecommerce_Demo" class="navigator-link">
-              <span class="suite-name border-failed">Ecommerce Demo</span>
+              <span class="suite-name border-passed">Ecommerce Demo</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Ecommerce_Demo" class="hide-methods failed suite-Ecommerce_Demo"> (hide)</a> <!-- hide-methods failed suite-Ecommerce_Demo -->
-                      <a href="#" panel-name="suite-Ecommerce_Demo" class="show-methods failed suite-Ecommerce_Demo"> (show)</a> <!-- show-methods failed suite-Ecommerce_Demo -->
-                    </span>
-                    <div class="method-list-content failed suite-Ecommerce_Demo">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecommerce_Demo" title="testRunners.LoginPageRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should be logged in successfully with valid credentials&quot;, &quot;Login Functionality for Ecommerce.&quot;)">runScenario("User should be logged in successfully with valid credentials", "Login Functionality for Ecommerce.")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Ecommerce_Demo -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -125,6 +111,11 @@
                         <a href="#" panel-name="suite-Ecommerce_Demo" title="testRunners.LoginPageRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User login is denied with invalid username or password&quot;, &quot;Login Functionality for Ecommerce.&quot;)">runScenario("User login is denied with invalid username or password", "Login Functionality for Ecommerce.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Demo" title="testRunners.LoginPageRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User should be logged in successfully with valid credentials&quot;, &quot;Login Functionality for Ecommerce.&quot;)">runScenario("User should be logged in successfully with valid credentials", "Login Functionality for Ecommerce.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Ecommerce_Demo -->
                   </li>
                 </ul>
@@ -137,59 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Ecommerce_Demo" class="panel Ecommerce_Demo">
-          <div class="suite-Ecommerce_Demo-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testRunners.LoginPageRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User should be logged in successfully with valid credentials&quot;, &quot;Login Functionality for Ecommerce.&quot;)">
-                  </a> <!-- runScenario("User should be logged in successfully with valid credentials", "Login Functionality for Ecommerce.") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User should be logged in successfully with valid credentials","Login Functionality for Ecommerce.")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;login-button&apos;]&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.140)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [a48455b76d86eeccac4a5ba5052a7040, findElement {value=*[name=&apos;login-button&apos;], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.140, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51182}, msedge: {msedgedriverVersion: 132.0.2957.164 (37b624ca592..., userDataDir: C:\Users\91960\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51182/devtoo..., se:cdpVersion: 132.0.2957.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a48455b76d86eeccac4a5ba5052a7040
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.By$PreW3CLocator.findElement(By.java:430)
-	at org.openqa.selenium.By$ByName.findElement(By.java:237)
-	at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:49)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.isEnabled(Unknown Source)
-	at uiPages.LoginPage.checkloginPage(LoginPage.java:86)
-	at stepDefinitions.LoginPagesteps.i_should_be_logged_out_successfully(LoginPagesteps.java:76)
-	at ✽.I should be logged out Successfully(file:///D:/SeleniumAutomation/EcommerceStore/src/test/resources/features/LoginPage.feature:15)
-... Removed 3 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Ecommerce_Demo-class-failed -->
           <div class="suite-Ecommerce_Demo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -212,6 +150,16 @@ Session ID: a48455b76d86eeccac4a5ba5052a7040
                   </a> <!-- runScenario("User login is denied with invalid username or password", "Login Functionality for Ecommerce.") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User login is denied with invalid username or password","Login Functionality for Ecommerce.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User should be logged in successfully with valid credentials&quot;, &quot;Login Functionality for Ecommerce.&quot;)">
+                  </a> <!-- runScenario("User should be logged in successfully with valid credentials", "Login Functionality for Ecommerce.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User should be logged in successfully with valid credentials","Login Functionality for Ecommerce.")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -282,20 +230,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunners.LoginPageRunner')
-data.setCell(0, 3, 21531);
+data.setCell(0, 3, 12033);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunners.LoginPageRunner')
-data.setCell(1, 3, 5288);
+data.setCell(1, 3, 4621);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testRunners.LoginPageRunner')
-data.setCell(2, 3, 5069);
+data.setCell(2, 3, 3852);
 window.suiteTableData['Ecommerce_Demo']= { tableData: data, tableDiv: 'times-div-Ecommerce_Demo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Ecommerce_Demo">
               </div> <!-- times-div-Ecommerce_Demo -->
             </div> <!-- times-div -->
@@ -323,26 +271,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testRunners.LoginPageRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@87a85e1)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@6bf0219d)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("User should be logged in successfully with valid credentials", "Login Functionality for Ecommerce.")</span>
-                <span class="method-start">857 ms</span>
+                <span class="method-start">823 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User login is denied with invalid username or password", "Login Functionality for Ecommerce.")</span>
-                <span class="method-start">22404 ms</span>
+                <span class="method-start">12864 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User login is denied with invalid username or password", "Login Functionality for Ecommerce.")</span>
-                <span class="method-start">27474 ms</span>
+                <span class="method-start">16717 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">32766 ms</span>
+                <span class="method-start">21342 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
