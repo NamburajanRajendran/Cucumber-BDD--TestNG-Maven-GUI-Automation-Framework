@@ -1,4 +1,4 @@
-1.BDD UI Automation Framwork build 
+1.BDD UI Automation Framework build -- This Project can be Integrated with Jenkins CI
 
           1. Java Language
           2. Cucumber BDD Framwork
